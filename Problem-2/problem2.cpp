@@ -36,6 +36,8 @@ int main(void){
 		last = i;
 		i = localSum;
 	}
+	
+	sumOfEvens += 2; // Because it's even too :>
 
 	cout << "Total sum of even fibonacci's = " << sumOfEvens << endl;
 	cout << "Number of Iterations = " << numOfIterations << endl;
